@@ -18,6 +18,7 @@ public class TestJunit {
 	// hashcode()
 	// Equal null
 	// Equal object
+	// 5CHF x 2 = 10CHF
    
    @Test
    public void testMultipleication() {
