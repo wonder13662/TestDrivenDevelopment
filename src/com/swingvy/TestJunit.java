@@ -23,6 +23,7 @@ public class TestJunit {
 	// (DONE)공용 equals
 	// 공용 times
 	// (DONE)France과 Dollar 비교하기
+	// 통화?
    
    @Test
    public void testMultipleication() {
