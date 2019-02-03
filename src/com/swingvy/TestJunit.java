@@ -20,8 +20,9 @@ public class TestJunit {
 	// Equal object
 	// (DONE) 5CHF x 2 = 10CHF
 	// Dollar/Franc 중복
-	// (WORKING)공용 equals
+	// (DONE)공용 equals
 	// 공용 times
+	// France과 Dollar 비교하기
    
    @Test
    public void testMultipleication() {
