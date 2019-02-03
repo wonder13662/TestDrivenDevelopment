@@ -24,6 +24,7 @@ public class TestJunit {
 	// 공용 times
 	// (DONE)France과 Dollar 비교하기
 	// 통화?
+	// testFrancMultiplication을 지워야 할까?
    
    @Test
    public void testMultipleication() {
