@@ -22,7 +22,7 @@ public class TestJunit {
 	// Dollar/Franc 중복
 	// (DONE)공용 equals
 	// 공용 times
-	// France과 Dollar 비교하기
+	// (WORKING)France과 Dollar 비교하기
    
    @Test
    public void testMultipleication() {
