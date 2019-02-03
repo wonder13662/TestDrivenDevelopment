@@ -16,6 +16,8 @@ public class TestJunit {
    // Money 반올림?
 	// (DONE) equals()
 	// hashcode()
+	// Equal null
+	// Equal object
    
    @Test
    public void testMultipleication() {
