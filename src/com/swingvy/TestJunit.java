@@ -2,6 +2,7 @@ package com.swingvy;
 
 import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertTrue;
+import static org.junit.Assert.assertFalse;
 
 import org.junit.Test;
 
@@ -27,6 +28,8 @@ public class TestJunit {
    
    @Test
    public void testEquality() {
+		// 삼각측량
 	   assertTrue(new Dollar(5).equals(new Dollar(5)));
+	   assertFalse(new Dollar(5).equals(new Dollar(6)));
    }
 }
