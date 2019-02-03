@@ -2,10 +2,9 @@ package com.swingvy;
 
 public class Dollar {
 	
-	public int amount;
+	public int amount = 5*2;
 
 	public Dollar(int amount) {
-		this.amount = amount;
 	}
 	
 	public void times(int multiplier) {
