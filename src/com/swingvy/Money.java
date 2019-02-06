@@ -9,10 +9,6 @@ class Money {
 		this.currency = currency;
 	}
 	
-	Money times(int multiplier) {
-		return null;
-	}
-
 	static Money franc(int amount) {
 		return new Franc(amount, "CHF");
 	}
@@ -32,5 +28,9 @@ class Money {
 	
 	public String toString() {
 		return amount + " " + currency;
+	}
+
+	Money times(int multiplier) {
+		return new Money(amount * multiplier,  currency);
 	}
 }
