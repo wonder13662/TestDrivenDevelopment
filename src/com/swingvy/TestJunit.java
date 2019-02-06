@@ -19,12 +19,12 @@ public class TestJunit {
 	// Equal null
 	// Equal object
 	// (DONE) 5CHF x 2 = 10CHF
-	// (WORKING)Dollar/Franc 중복
+	// (DONE) Dollar/Franc 중복
 	// (DONE) 공용 equals
 	// (DONE) 공용 times
 	// (DONE) France과 Dollar 비교하기
 	// (DONE) 통화?
-	// testFrancMultiplication을 지워야 할까?
+	// (DONE) testFrancMultiplication을 지워야 할까?
    
    @Test
    public void testMultipleication() {
@@ -38,8 +38,6 @@ public class TestJunit {
 		// 삼각측량
 	   assertTrue(Money.dollar(5).equals(Money.dollar(5)));
 	   assertFalse(Money.dollar(5).equals(Money.dollar(6)));
-	   assertTrue(Money.franc(5).equals(Money.franc(5)));
-	   assertFalse(Money.franc(5).equals(Money.franc(6)));
 	   assertFalse(Money.franc(5).equals(Money.dollar(5)));
    }
    
@@ -54,10 +52,5 @@ public class TestJunit {
    public void testCurrency() {
 	   assertEquals("USD", Money.dollar(1).currency());
 	   assertEquals("CHF", Money.franc(1).currency());
-   }
-   
-   @Test
-   public void testDifferentClassEquality() {
-	   assertTrue(new Money(10, "CHF").equals(new Franc(10, "CHF")));
-   }
+   }   
 }
