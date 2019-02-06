@@ -2,6 +2,7 @@ package com.swingvy;
 
 abstract class Money {
 	protected int amount;
+	protected String currency;
 	
 	abstract Money times(int multiplier);
 
@@ -10,7 +11,7 @@ abstract class Money {
 	}
 	
 	static Money franc(int amount) {
-		return new Franc(amount);
+		return new Franc(amount, "CHF");
 	}
 	
 	public boolean equals(Object object) {
@@ -18,5 +19,7 @@ abstract class Money {
 		return amount == money.amount && getClass().equals(money.getClass());
 	}	
 	
-	abstract String currency();
+	protected String currency() {
+		return currency;
+	}
 }

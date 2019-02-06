@@ -5,18 +5,12 @@ package com.swingvy;
  */
 
 public class Franc extends Money {
-	private String currency;
-	public Franc(int amount) {
+	public Franc(int amount, String currency) {
 		this.amount = amount;
-		currency = "CHF";
+		this.currency = currency;
 	}
 	
 	Money times(int multiplier) {
-		return new Franc(amount * multiplier);
-	}
-	
-	String currency() {
-		return currency;
-	}
-	
+		return Money.franc(amount * multiplier);
+	}	
 }
