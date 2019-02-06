@@ -9,7 +9,7 @@ import org.junit.Test;
 public class TestJunit {
 	
    // TODO
-   // $5 + 10CHF = $10(환율이 2:1일 경우)
+   // (WORKING) $5 + 10CHF = $10(환율이 2:1일 경우)
    // (DONE) $5 x 2 = $10
    // (DONE) amount를 private으로 만들기
    // (DONE) Dollar 부작용(side effect)?
