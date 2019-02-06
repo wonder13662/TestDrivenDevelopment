@@ -19,7 +19,7 @@ public class TestJunit {
 	// Equal null
 	// Equal object
 	// (DONE) 5CHF x 2 = 10CHF
-	// Dollar/Franc 중복
+	// (WORKING)Dollar/Franc 중복
 	// (DONE) 공용 equals
 	// (DONE) 공용 times
 	// (DONE) France과 Dollar 비교하기
