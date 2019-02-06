@@ -21,7 +21,7 @@ public class TestJunit {
 	// (DONE) 5CHF x 2 = 10CHF
 	// Dollar/Franc 중복
 	// (DONE) 공용 equals
-	// (WORKING) 공용 times
+	// (DONE) 공용 times
 	// (DONE) France과 Dollar 비교하기
 	// (DONE) 통화?
 	// testFrancMultiplication을 지워야 할까?
