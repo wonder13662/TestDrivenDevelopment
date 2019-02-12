@@ -30,11 +30,11 @@ class Money implements Expression {
 		return amount + " " + currency;
 	}
 
-	Money times(int multiplier) {
+	Expression times(int multiplier) {
 		return new Money(amount * multiplier,  currency);
 	}
 	
-	Expression plus(Money addend) {
+	Expression plus(Expression addend) {
 		return new Sum(this, addend);
 	}
 	
