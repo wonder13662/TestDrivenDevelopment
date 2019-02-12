@@ -12,6 +12,7 @@ public class TestJunit {
    // $5 + 10CHF = $10(환율이 2:1일 경우)
    // (DONE) $5 + $5 = $10
 	// $5 + $5에서 Money 반환하기
+	// Sum.plus의 구현
 	// (DONE) Bank.reduce(Money)
 	// (DONE) Money에 대한 통화 변환을 수행하는 Reduce
 	// (DONE) Reduce(Bank, String)
@@ -98,7 +99,7 @@ public class TestJunit {
    
    @Test
    public void testMixedAddition() {
-	   Money fiveBucks = Money.dollar(5);
+	   Expression fiveBucks = Money.dollar(5);
 	   Expression tenFrancs = Money.franc(10);
 	   Bank bank = new Bank();
 	   bank.addRate("CHF", "USD", 2);
